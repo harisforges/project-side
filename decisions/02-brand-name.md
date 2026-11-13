@@ -80,3 +80,13 @@ Run them in this order. Stop and tell me as soon as any check fails.
 3. That new Gmail becomes the login for TikTok Shop, Shopee and the dashboard later. Write the password in your password manager.
 
 **6. Send me:** the screenshots or a one-line result per check. Example: `MyIPO: TAKUSUT 0 results, KUSUT 1 result class 25 (clothing) registered, TAKU 3 results none in 21 · TikTok @takusut free · Shopee 0 · .com free RM45 · .my free RM?`
+
+## Haris's spending choices (13 Nov 2026)
+
+- **Trademark:** file MyIPO class 21 **only after the Day-45 gate passes (9 Jan 2027)**. Budget it from profit, not the RM5,000.
+- **Domain:** **buy takusut.com now**, about RM45 from the RM400 buffer. Do this only *after* the MyIPO check is clean.
+  1. Go to `https://dash.cloudflare.com` and sign up with the new takusut Gmail. You'll need this Cloudflare account for the dashboard anyway.
+  2. Left menu → **Domain Registration** → **Register Domains** → type `takusut.com` → **Purchase**.
+  3. Turn on auto-renew. WHOIS privacy is on by default.
+  4. Pay with the business card or account linked to the SSM entity, not EcomForges.
+  5. Record it in the Budget tab: "Domain takusut.com, RM__ , buffer".
