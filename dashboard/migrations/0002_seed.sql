@@ -30,7 +30,7 @@ INSERT OR IGNORE INTO budget_plan (category, planned, notes) VALUES
 
 INSERT OR IGNORE INTO decisions (num, date, title, status, confidence, outcome, worked) VALUES
   ('01', '2026-11-13', 'Hero = long-hair self-cleaning slicker sold as a kit; glove dropped', 'Final (GO)', 'High demand / Med-low kit price', '240k units sold in commodity tier; premium ~666', ''),
-  ('02', '2026-11-13', 'Brand TAKUSUT (fallback PURRLOOM); TM after Day 45; buy takusut.com', 'Pending checks', 'Med-high', '', ''),
+  ('02', '2026-11-13', 'Brand TAKUSUT; TM after Day 45; buy takusut.com', 'Confirmed', 'High', 'All availability checks clear (13 Nov)', ''),
   ('03', '2026-11-13', 'Kit = slicker + 2-sided comb + face comb; RM39.90 / RM54.90 / RM24.90', 'Decided', 'Med / Low profit', 'RM8.48/kit at 16.74% commission', ''),
   ('04', '2026-11-13', '1688 + forwarder; first air order 120 kits; sea reorders; CNY cut-off 8 Jan', 'Decided', 'Med-low prices', '', ''),
   ('05', '2026-11-13', 'Shop setup TikTok + Shopee on spare SSM', 'Decided', 'High', '', ''),

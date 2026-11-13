@@ -1,6 +1,6 @@
 # 02 — Brand name
 
-Date: 13 Nov 2026 · Status: **DECIDED, pending Haris's availability checks** (below). If any check fails, use #2 and rerun the checks.
+Date: 13 Nov 2026 · Status: **CONFIRMED (13 Nov 2026)**: all availability checks clear. See the bottom of this file.
 
 ## Decision
 
@@ -90,3 +90,8 @@ Run them in this order. Stop and tell me as soon as any check fails.
   3. Turn on auto-renew. WHOIS privacy is on by default.
   4. Pay with the business card or account linked to the SSM entity, not EcomForges.
   5. Record it in the Budget tab: "Domain takusut.com, RM__ , buffer".
+
+## Availability checks: result (13 Nov 2026)
+Haris reported: **MyIPO 0 results**, **TikTok handle 0 (free)**, **Shopee 0**, **Lazada 0**, **TikTok Shop 0**.
+→ **TAKUSUT is CONFIRMED.** PURRLOOM is retired as the fallback.
+Still open: takusut.com availability (not reported). If it's taken, use a free subdomain for the guide; this is not a reason to switch names.
