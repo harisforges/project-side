@@ -1,0 +1,17 @@
+{
+  "name": "takusut-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:init:local": "wrangler d1 migrations apply takusut --local",
+    "db:init:remote": "wrangler d1 migrations apply takusut --remote",
+    "deploy": "wrangler deploy",
+    "backup:remote": "wrangler d1 export takusut --remote --output ../data/seed/d1-backup.sql",
+    "test": "node --test test/*.test.mjs",
+    "rules": "node scripts/rules-cli.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "4.13.2"
+  }
+}

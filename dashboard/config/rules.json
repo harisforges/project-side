@@ -1,0 +1,116 @@
+{
+  "_readme": "Edit thresholds here, then redeploy (npm run deploy). /daily, /weekly, /gate and /reorder read this same file. Dates are YYYY-MM-DD in Malaysia time.",
+
+  "launch": {
+    "day1_default": "2026-11-26",
+    "_day1_note": "Day 1 is stored as a dashboard setting (Settings → Day 1). It moves if stock arrives late; all gate dates follow it."
+  },
+
+  "gates": [
+    { "id": "D7",  "day": 7,  "name": "Day 7 – creator engine running",
+      "logic": "all",
+      "checks": [
+        { "metric": "invites_total", "op": ">=", "value": 30, "label": "30+ creators invited" },
+        { "metric": "samples_sent_total", "op": ">=", "value": 10, "label": "10+ samples shipped" },
+        { "metric": "videos_total", "op": ">=", "value": 1, "label": "1+ video posted" }
+      ],
+      "fail_action": "Open collab to 18%, targeted to 22%, send +50 invites this week." },
+    { "id": "D21", "day": 21, "name": "Day 21 – first traction",
+      "logic": "any",
+      "checks": [
+        { "metric": "orders_7d_avg", "op": ">=", "value": 3, "label": "3+ orders/day (7-day avg)" },
+        { "metric": "best_video_orders", "op": ">=", "value": 10, "label": "one video with 10+ orders" }
+      ],
+      "fail_action": "Swap hero tool to shortlist #2 (dematting rake, non-FURminator shape). Run /decide hero-swap." },
+    { "id": "D30", "day": 30, "name": "Day 30 – Phase 1 exit",
+      "logic": "any",
+      "checks": [
+        { "metric": "orders_7d_avg", "op": ">=", "value": 5, "label": "5+ orders/day (7-day avg)" },
+        { "metric": "best_video_orders", "op": ">=", "value": 10, "label": "one video with 10+ orders" }
+      ],
+      "fail_action": "Second swap or sharper bundle; GMV Max budget to RM15/day." },
+    { "id": "D45", "day": 45, "name": "Day 45 – capital gate",
+      "logic": "all",
+      "checks": [
+        { "metric": "orders_7d_avg", "op": ">=", "value": 10, "label": "10+ orders/day (7-day avg)" },
+        { "metric": "profit_per_order_7d", "op": ">=", "value": 8, "label": "RM8+ profit/order after ads" }
+      ],
+      "fail_action": "Stop new stock. Sell through by Day 60, then close the shops." },
+    { "id": "D60", "day": 60, "name": "Day 60 – scale check",
+      "logic": "all",
+      "checks": [
+        { "metric": "orders_7d_avg", "op": ">=", "value": 20, "label": "20+ orders/day (7-day avg)" }
+      ],
+      "fail_action": "Hold size. Fix conversion (images, price test, creative) before scaling." }
+  ],
+  "gate_warning_days": 3,
+
+  "ads": {
+    "start_when_orders_total": 20,
+    "start_when_videos_total": 5,
+    "start_budget": 30,
+    "roi_target": 3.0,
+    "roi_floor": 2.6,
+    "_roi_floor_note": "2.6 assumes 16.74% TikTok commission (break-even 2.37). Set to 2.4 if Seller Center shows <=12%.",
+    "scale_up_pct": 20,
+    "scale_up_after_days_at_target": 3,
+    "min_days_between_changes": 3,
+    "cut_pct": 30,
+    "cut_after_days_below_floor": 2,
+    "underspend_ratio": 0.7,
+    "underspend_days": 2,
+    "underspend_target_step": 0.2,
+    "pause_roi": 2.0,
+    "pause_after_days": 3,
+    "gate_fail_budget": 15,
+    "monthly_cap_phase1": 900
+  },
+
+  "creators": {
+    "delivery_days_assumed": 3,
+    "followup_1_days_after_delivery": 10,
+    "followup_2_days_after_delivery": 17,
+    "no_response_days_after_delivery": 21,
+    "weekly_invite_target": 50,
+    "weekly_sample_cap": 10,
+    "tiers": [
+      { "tier": "T0", "commission": 15, "rule": "open collaboration" },
+      { "tier": "T1", "commission": 20, "rule": "targeted, sample approved" },
+      { "tier": "T2", "commission": 22, "min_orders_14d": 10 },
+      { "tier": "T3", "commission": 25, "min_orders_30d": 30, "top_pct": 10 }
+    ]
+  },
+
+  "inventory": {
+    "reorder_at_days_cover": 25,
+    "air_top_up_below_days_cover": 10,
+    "air_lead_days": 12,
+    "sea_lead_days": 35,
+    "cover_target_days_after_arrival": 45,
+    "spare_pct": 5,
+    "sea_switch_when_orders_7d_avg": 5,
+    "last_sea_order_before_cny": "2027-01-08",
+    "components_per_kit": { "SLK": 1, "COMB2": 1, "COMBF": 1 },
+    "extra_slicker_share_of_orders": 0.15
+  },
+
+  "kpi_targets": {
+    "orders_per_day": [
+      { "from_day": 1,  "to_day": 30, "target": 7 },
+      { "from_day": 31, "to_day": 60, "target": 20 },
+      { "from_day": 61, "to_day": 90, "target": 39 }
+    ],
+    "profit_goals_monthly": [10000, 20000, 30000],
+    "roas_target": 3.0,
+    "roas_floor": 2.6
+  },
+
+  "cash": {
+    "capital_cap": 5000,
+    "cash_floor": 1000,
+    "tax_reserve_pct": 10,
+    "ecomforges_split_pct": 50,
+    "ecomforges_split_pct_above_20k": 70,
+    "no_transfer_months": ["2026-12", "2027-01"]
+  }
+}

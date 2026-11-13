@@ -1,0 +1,21 @@
+name = "takusut-ops"
+main = "src/worker.js"
+compatibility_date = "2025-04-01"
+
+# Static UI served through the Worker so Access is checked on every request.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "takusut"
+database_id = "REPLACE_WITH_ID_FROM_wrangler_d1_create"
+migrations_dir = "migrations"
+
+# Cloudflare Access (Zero Trust). Not secrets: the AUD tag and team domain are public identifiers.
+# Until both are filled in, the deployed dashboard answers 403 (fails closed).
+[vars]
+ACCESS_TEAM_DOMAIN = "https://REPLACE-TEAM-NAME.cloudflareaccess.com"
+ACCESS_AUD = "REPLACE_WITH_APPLICATION_AUDIENCE_AUD_TAG"

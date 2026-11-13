@@ -12,3 +12,4 @@
 | 08 | 2026-11-13 | GMV Max after 20 orders or 5 videos; RM30/day, ROI 3.0, floor 2.6; +20% per 3 days at ROI ≥ 3; −30% after 2 days below floor; Shopee ads after 10 reviews at RM10/day | Decided | Med-high (rules) / Low (ROI achievable) | — |
 | 09 | 2026-11-13 | Bilingual auto-replies, 10 quick replies, refund rules, packing-video habit; honest-review ask only, no incentives | Decided | High | — |
 | 10 | 2026-11-13 | Plain kraft E-flute mailer 24×13×5 + logo sticker + A6 QR insert → takusut.com/guide (written: site/guide/index.html); ~RM1.25/kit packaging | Decided | High | — |
+| 11 | 2026-11-13 | No TikTok/Shopee API integration now; CSV import + daily form. Revisit TikTok in-house API after Day 45 if > 20 orders/day | Decided | Med-high | — |

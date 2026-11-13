@@ -9,3 +9,5 @@ data/imports/*
 data/*.db
 data/*.sqlite
 .DS_Store
+.dev.vars
+.wrangler/
