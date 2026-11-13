@@ -147,3 +147,5 @@ Data: `research/01-product-validation-template.xlsx` and `research/01-tiktok-vid
 - **Backup #2:** non-FURminator dematting rake. **Dropped:** grooming glove.
 - **Confidence:** demand high; kit at RM36.90+ medium-low; volume of 27/day via TikTok affiliates low (unchanged from the plan's odds).
 - **Snapshot 2 (19 Nov)** now only confirms velocity. It changes the hero only if the top 5 slicker listings show almost no growth (rating_count up by fewer than 5 each). Sourcing (item 4) proceeds on this spec now.
+
+_Note 13 Nov: WaggyWaggy sold count added (10k+). Commodity tier total is now 240,593 sold across 19 listings. No change to the decision._
