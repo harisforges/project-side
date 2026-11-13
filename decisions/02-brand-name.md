@@ -94,4 +94,4 @@ Run them in this order. Stop and tell me as soon as any check fails.
 ## Availability checks: result (13 Nov 2026)
 Haris reported: **MyIPO 0 results**, **TikTok handle 0 (free)**, **Shopee 0**, **Lazada 0**, **TikTok Shop 0**.
 → **TAKUSUT is CONFIRMED.** PURRLOOM is retired as the fallback.
-Still open: takusut.com availability (not reported). If it's taken, use a free subdomain for the guide; this is not a reason to switch names.
+**Domain (13 Nov):** takusut.com is **available at USD 11.17/year** (Cloudflare Registrar, renews at the same price; about RM47–50 depending on the card's FX rate). **Buy .com only**: no .my, .co, .net or other extensions. Nobody types those, and they cost money every year.
