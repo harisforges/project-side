@@ -110,3 +110,13 @@ Data: `research/01-product-validation-template.xlsx` and `research/01-tiktok-vid
 ### Two gaps to close before 19 Nov
 - **Sold counts** (`sold_snapshot1`) for the same 19 listings. Without them there is no velocity reading in snapshot 2.
 - **Kit/premium proof.** Five listings priced RM25 or more that are sets or premium brushes. If none show 200+ sold, the RM36.90–39.90 kit is unproven. In that case I will rebuild the offer in item 3 (e.g. RM29.90 kit with cost driven to RM8 or less).
+
+## Update: sold counts added (13 Nov 2026, evening)
+
+- **Demand is much larger than the rating proxy suggested.** 18 listings show **230,593 sold** (TikTok cat brush #2 is blank). That is about 10.9 sold per rating, not the 2.5–4 I assumed. Demand confidence goes to **high**.
+- **The highest-priced Shopee slicker is the best seller.** "Self Cleaning Pet Slicker Brush Gentle" (China, RM10.33) has **40,000 sold**, about RM413k lifetime GMV. That is more than double every RM1.69–4.60 listing. Buyers in this category are not just picking the cheapest.
+- **Premium proof point.** "Sikat penyingkiran bulu" on TikTok (China, RM26.99) has **3,087 sold**, about RM83k GMV. That is the only evidence above RM19, and it is a single tool, not a kit.
+- **Velocity measurement problem.** Shopee rounds big numbers: 5 listings show "10k+", which won't move visibly in 6 days. **Snapshot 2 therefore re-records `rating_count` too.** It is an exact number and grows with sales at about 1 rating per 11 sold.
+- **Still missing:** the premium-kit check (5 listings at RM25 or more that are sets or premium brushes, with sold counts). The RM36.90–39.90 kit price is still unproven.
+
+**Decision unchanged:** the slicker is the hero, sold as a kit. Kit price floor stays at RM36.90. Single only as a TikTok variation. Confidence: demand high; price/kit low-medium (up from low because of the RM10.33 and RM26.99 results).
