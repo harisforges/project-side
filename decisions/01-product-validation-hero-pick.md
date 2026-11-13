@@ -86,3 +86,27 @@ Fill in `research/01-product-validation-template.csv`: open it in Sheets/Excel, 
 **D. Snapshot 2 (Thu 19 Nov, 8 min):** reopen the same listings (save them to Shopee "Likes" and TikTok "Favourites" during snapshot 1 so they're easy to find) and update the `sold_snapshot2` column only.
 
 When you return snapshot 1, I'll give the interim verdict. Final go/no-go and the brush spec for the RFQ come after snapshot 2. That still fits the 26 Nov launch, because item 4 (sourcing and samples) runs in parallel on the slicker spec now.
+
+---
+
+## Interim verdict: snapshot 1 (13 Nov 2026)
+
+Data: `research/01-product-validation-template.xlsx` and `research/01-tiktok-videos-template.xlsx`, 19 listings and 3 videos uploaded by Haris.
+
+### What the data says
+- **Demand exists.** The 19 listings have 22,537 ratings between them. Rating count is used as the proxy here because the sold column was left blank. Assuming 25–40% of buyers leave a rating, that is roughly 55k–90k units over the listings' lifetime. This is an assumption.
+- **The price band is far lower than the plan assumed.** Median price is **RM4.60**. Only 3 of 19 listings are RM10 or more, and only **1 of 19 is RM19 or more**: a China-shipped "sikat penyingkiran bulu" at RM26.99 with 573 ratings. Generic search on both platforms is a RM2–10 commodity market.
+- **No bundles are proven.** No listing records a bundle price, so the RM39.90 kit thesis has no evidence yet, for or against.
+- **The complaints are all fixable, and they are the same ones.** "Poor quality", "broken", "didn't work" and "not as described" appear on 14 of 19 listings. That is the opening for a quality product, but it does not prove that buyers will pay 8x for it.
+- **No-face content works.** The top "cat brush" videos are hands and cat only, with 1.3M–15M views. None had a product link and all are 141–292 days old, so there is organic interest but no proven shop video for this product in MY right now.
+- **Data quality.** Shopee deshedding #3 and TikTok cat brush #3 are gloves, and TikTok #2 is a wooden comb. Top search results are a mix of product types, which means no dominant slicker brand. That is good for us.
+
+### Decision update
+1. **Kill the standalone RM19.90–24.90 single as a Shopee search product.** It would sit at about 4x the median price with no visible reason to pay more. The single exists only as a TikTok kit-page variation (price set in item 3).
+2. **Hero is still the slicker, sold as a kit.** We compete on "the set that fixes long-hair matting" and the demo video, not on "a brush". Search buyers expect RM5. Video buyers can be shown why RM39.90 is worth it. This makes TikTok as primary channel even more important.
+3. **Kit price floor is RM36.90.** At RM34.90 the kit makes RM9.37/order at RM10 landed cost, which fails the RM10 rule. At RM36.90 it makes RM10.59, and at RM39.90 it makes RM12.43. Below RM36.90 is only viable if real quotes bring landed cost to RM8 or less.
+4. **Status: still PROVISIONAL, with confidence in the price/kit thesis lowered to low.** Go/no-go needs the two extra checks below.
+
+### Two gaps to close before 19 Nov
+- **Sold counts** (`sold_snapshot1`) for the same 19 listings. Without them there is no velocity reading in snapshot 2.
+- **Kit/premium proof.** Five listings priced RM25 or more that are sets or premium brushes. If none show 200+ sold, the RM36.90–39.90 kit is unproven. In that case I will rebuild the offer in item 3 (e.g. RM29.90 kit with cost driven to RM8 or less).
