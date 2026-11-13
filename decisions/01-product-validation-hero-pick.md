@@ -1,6 +1,6 @@
 # 01 — Product validation & hero pick
 
-Date: 12 Nov 2026 · Status: **PROVISIONAL**. It becomes final after Haris returns the research table (snapshot 1 by 13 Nov, snapshot 2 on 19 Nov).
+Date: 12 Nov 2026 · Status: **FINAL — GO (13 Nov 2026)**. Snapshot 2 on 19 Nov confirms velocity only. See bottom of file.
 
 ## Decision
 
@@ -120,3 +120,30 @@ Data: `research/01-product-validation-template.xlsx` and `research/01-tiktok-vid
 - **Still missing:** the premium-kit check (5 listings at RM25 or more that are sets or premium brushes, with sold counts). The RM36.90–39.90 kit price is still unproven.
 
 **Decision unchanged:** the slicker is the hero, sold as a kit. Kit price floor stays at RM36.90. Single only as a TikTok variation. Confidence: demand high; price/kit low-medium (up from low because of the RM10.33 and RM26.99 results).
+
+## Update: premium-kit check (13 Nov 2026, night)
+
+| Listing | Price | Sold | Notes |
+|---|---|---|---|
+| Shopee: Pet lice removal comb set (China) | RM74.04 | 202 | set |
+| Shopee: Petstar premium cat comb brush | RM63.20 | 4 | — |
+| Shopee: 3rd result | — | — | none found at RM25+ |
+| TikTok: Yasashii anti-static brush (MY) | RM72.10 | 453 | premium single brush |
+| TikTok: Catit longhair grooming kit (MY) | RM107.01 | 7 | branded long-hair kit |
+
+**Result: PASS, barely.** 2 of 5 listings have 200+ sold (202 and 453), and both are RM70+. This shows people will pay premium prices in this category.
+
+**The honest problem:** the premium tier on search is tiny. These 4 premium listings have about **666 lifetime sold** in total. That is about 0.3% of the 230k units in the commodity tier. Our target of 27 kits/day is about 810/month, which is more than this whole visible premium segment has ever sold.
+
+**What that means:**
+1. Search alone cannot supply the volume. This is the strongest evidence yet that **affiliate video on TikTok must create the demand**. Shopee is a secondary channel for people who search after seeing a video.
+2. **Price band RM36.90–39.90 is confirmed as a gap:** above the RM2–27 commodity tier and well below the RM63–107 premium tier. The only branded long-hair kit (Catit) sells at RM107 with 7 sold, so there is no strong incumbent kit to beat. Final price is set in item 3.
+3. The listing and video must make the gap visible: "salon-grade long-hair kit for less than one brush from the premium brands", with proof shown on a matted coat. Specific claims are handled in item 6, never misleading.
+
+## FINAL (13 Nov 2026): GO
+
+- **Hero:** self-cleaning slicker brush, long-hair spec. Pins 15 mm or longer and coated, full one-push retraction, cat-sized head, 130 g or less.
+- **Main offer:** hero kit (slicker + steel comb + fur roller) with a price floor of RM36.90. Exact price is set in item 3. The single is only a TikTok variation.
+- **Backup #2:** non-FURminator dematting rake. **Dropped:** grooming glove.
+- **Confidence:** demand high; kit at RM36.90+ medium-low; volume of 27/day via TikTok affiliates low (unchanged from the plan's odds).
+- **Snapshot 2 (19 Nov)** now only confirms velocity. It changes the hero only if the top 5 slicker listings show almost no growth (rating_count up by fewer than 5 each). Sourcing (item 4) proceeds on this spec now.
