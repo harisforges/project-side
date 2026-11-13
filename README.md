@@ -2,6 +2,8 @@
 
 A long-hair cat grooming brand on TikTok Shop MY and Shopee MY. `CLAUDE.md` holds the operating brief; `decisions/` holds every commercial decision.
 
+**Start here: [`RUNBOOK.md`](RUNBOOK.md)**, the full step-by-step plan from setup to daily operations.
+
 ```
 CLAUDE.md                 operating brief (read by every Claude session)
 decisions/                00-decisions-log.md + one file per decision (01–11)
