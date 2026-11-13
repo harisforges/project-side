@@ -143,7 +143,7 @@ Data: `research/01-product-validation-template.xlsx` and `research/01-tiktok-vid
 ## FINAL (13 Nov 2026): GO
 
 - **Hero:** self-cleaning slicker brush, long-hair spec. Pins 15 mm or longer and coated, full one-push retraction, cat-sized head, 130 g or less.
-- **Main offer:** hero kit (slicker + steel comb + fur roller) with a price floor of RM36.90. Exact price is set in item 3. The single is only a TikTok variation.
+- **Main offer:** hero kit, price set in item 3. _Superseded by decision 03: the kit is slicker + 2-sided comb + face comb at RM39.90 (fur roller dropped)._
 - **Backup #2:** non-FURminator dematting rake. **Dropped:** grooming glove.
 - **Confidence:** demand high; kit at RM36.90+ medium-low; volume of 27/day via TikTok affiliates low (unchanged from the plan's odds).
 - **Snapshot 2 (19 Nov)** now only confirms velocity. It changes the hero only if the top 5 slicker listings show almost no growth (rating_count up by fewer than 5 each). Sourcing (item 4) proceeds on this spec now.
